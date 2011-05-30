@@ -2,7 +2,8 @@ module Panda
   
   API_PORT=443
   US_API_HOST="api.pandastream.com"
-  EU_API_HOST="api.eu.pandastream.com"
+  EU_API_HOST="api-eu.pandastream.com"
+  EU_API_HOST_OLD="api.eu.pandastream.com"
   
   class Connection
     attr_accessor :api_host, :api_port, :access_key, :secret_key, :api_version, :cloud_id

@@ -34,6 +34,7 @@ module Panda
 
     def region
       return "eu" if connection.api_host == Panda::EU_API_HOST
+      return "eu" if connection.api_host == Panda::EU_API_HOST_OLD
       return "us" if connection.api_host == Panda::US_API_HOST
     end
 
